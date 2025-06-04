@@ -9,6 +9,10 @@ app.get('/', (req,res)=>{
     res.send('Hola a todos');
 });
 
+app.get('hello', (req,res)=>{
+    res.send("Hola");
+});
+
 app.listen(port, ()=>{
     console.log('Servidor escuchandi en el puesto 3000')
 })
